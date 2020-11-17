@@ -1,0 +1,19 @@
+{
+  "name": "quotes-api-fastify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^3.8.0",
+    "fastify-cors": "^4.1.0",
+    "fastify-env": "^2.1.0",
+    "mongoose": "^5.10.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
